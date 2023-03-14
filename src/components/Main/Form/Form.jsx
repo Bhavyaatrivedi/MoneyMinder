@@ -7,7 +7,7 @@ import Snackbar from '../../Snackbar/Snackbar';
 import formatDate from '../../../utils/formatDate';
 import { ExpenseTrackerContext } from '../../../context/context';
 import { incomeCategories, expenseCategories } from '../../../constants/categories';
-import useStyles from './styles';
+import useStyles from './styles.js';
 
 const initialState = {
   amount: '',
